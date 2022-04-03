@@ -1,0 +1,89 @@
+/* This is for the overall portion of the webpage */
+* {
+    box-sizing:border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* This is my entire header */
+.bbcNavbar {
+    height:55px;
+    background-color: black;
+    color: white;
+}
+/* This is the BBC logo and little img next to sign in within the header. */
+.bbclogo {
+    height:55px;
+    width:50px;
+}
+/*
+.signonimg {
+    height:55px;
+}
+*/
+/* This is my navigation inside of my header.  */
+.navigation * {
+    text-align: center;
+    float:left;
+    display: block;
+    width:10%;
+    color:white;
+    padding-top:5px; 
+    height:55px;
+}
+/* This is my list within my navigation after the logo. I want the text to be spread apart appropriately. */
+.navList {
+    width: 50%;
+}
+/* This is the form (white box) in my header that sits inside of the navigation bar */
+.navigation form input {
+    width:100%;
+    height:25px;
+}
+
+/* This is my sign in anchor href link */
+.signin {
+    padding-top: 20px;
+    padding-right: 60px;
+}
+
+/* This is the three sections at the bottom */
+section .news {
+    width:33.3333%;
+    float:left;
+    clear:both;
+}
+
+/* This is my main section */
+main
+/* This is so both of my sections up top sit next to each other */
+.middleEast {
+    width:50%;
+    height: 500px;
+    float:left;
+}
+
+.sideArticles {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+h2 {
+    font-size: 30px;
+}
+/* This is for my images in the news section near the bottom */
+.news img {
+    height: 300px;
+}
+
+main img {
+    height: 300px;
+}

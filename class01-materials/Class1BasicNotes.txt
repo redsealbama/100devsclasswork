@@ -1,0 +1,181 @@
+75 people out of 100
+Community
+Oversaturated with folks who dont know what theyre doing.
+Learning to code will not get you the job, its only a small portion.
+Half folks from last cohort did not have technical interview
+Spend time on things that arent just code
+Learn to code, learn to network, be different, to get high paying amazing career.
+DO not know how long that window is open
+Never just click apply
+Connections are everything
+
+Trough of Sorrow
+20 weeks in the much
+wiggles of false hope
+- people respond to jobs, great interview (interview is not going to work out)
+- Apply to 60 companies. We dont just click apply, networked into. 
+- About 10 of those interviews will go bad
+- About 40 of them so-so
+- About 10 of them go amazing
+- Then maybe 2 Offers.
+When it feels bad, you have a community to fall back on. 
+Only way to get through the trough of sorrow is with community. Help each other out.
+When you graduate, the expectation is you turn around and bring three more with you.
+Make sure your people make it through, help each other out. Three people with you getting a job.
+Make sure they are prepared. 
+
+Udemy Reasons
+1. Very Easy to spend money and feel like youve done something
+2. Some Youtuber told you to
+You got go.
+We dont get got, we go get.
+ 
+3 Core Things to get through Trough of Sorrow:
+1. Managing Frustration
+- Ability to do hard work
+- To struggle and fail over and over again.
+- Nothing to do where you started. All walks of life. 
+People get older, you lose ability to manage frustration. 
+Frustration is what stops you from learning. 
+Mindset of most successful students: 
+Individuals who say know what, whatever he said, i didnt get. But I know tomorrows my day.
+It WILL make sense. I will keep working until it does.
+
+2. Being consistent
+- Huge impact
+- Consistent every day doing this.
+- Outside class 10-14 Hours 
+- Class 6 Hours or so
+- Spead out your learning to a period everyday
+- 1-2 Hours a day is goal.
+- Set up your life to be consistent.
+
+3. Taking care of yourself
+- Sleep
+- Exercise
+- Eating right
+- Chess Example: How many calories burn in professional tournament: 6000 calories in a tournament
+  Cognitive Effort has a real toll on your body
+- Most folks burn out
+- Lose the endurance to keep going
+- Marathon, not a sprint. 
+- JUST DO IT. MAKE YOUR DREAMS COME TRUE. 
+
+Course Setup:
+Materials: 
+Always will be on discord
+
+Checking In: 
+Like and Retween the Tweet
+To be in Turing & Hopper: 
+Mandatory
+
+Networking: 
+3 Individuals Already in Tech each week
+2 Coffee Chats each week and sit down with them 
+learning right now, what are they doing, etc.
+Twitter is a huge resource for networking.
+
+Submitting Work: 
+Always due a week later
+First Google Forms Then Github
+
+Coding Challenges:
+Not yet, but there will be a coding challenge every single day in the future. 
+
+Roller Coaster: 
+Will be a roller coaster, hate and love it. 
+By Beyonce! Go through it like beyonce, have fun. Enjoy the process and the ride.
+Make lots of friends and give it your all!
+YOU WILL GET IT EVENTUALLY. BELIEVE!
+
+Syllabus:
+None. Learning Full-Stack Javascript. 
+Code Weenies. Trust the process.
+
+Community Rules:
+Anonymous Report = !report
+NO NSFW
+No Hacking
+No Bannovating
+No Discrimination, (Bad Terms: Race, Terms, Disability, Etc.)
+BE a good human. 
+Do not split community. Do not share other programming communities. 
+Before you type anything, ask yourself. Is that the nicest, kindest, thing that I could type.
+Tech is not a welcoming space in general. 
+WE CARE!
+
+Be kind to each other
+Be positive, assume the best
+Accept my own failures and those of your peers as an important part of the process.
+
+Learned how to learn:
+Have you ever reread a chapter multiple times to try to learn something?
+Have you ever taken a lot of notes while trying to learn something?
+Highlighted?
+
+None of these help you to learn....
+Two strategies to learn stuff faster, more efficently, and forever
+1. Active Recall
+- When you finish reading something, you recall what you just read. Every single time.
+- Stop and recall to yourself what you just read.
+- Say out loud what you just learned to your imaginary friend haha.
+- Get a duck that you can talk too. YOU HAVE R2. 
+- Dont take notes, take questions.
+ex. What is something that I dont have to re-read multiple times, but actively practice after? That 
+helps you learn material?
+A: Active Recall
+
+Ebbinghaus Forgetting Curve
+What is the forgetting curve how do we not forget? 
+
+2. Spaced Repetition
+What is spaced repeition? 
+Ability to remember things goes up and up. BUT SPACED. Review his slides.
+
+(Two Videos Cover this)
+
+
+ANKI 
+https://apps.ankiweb.net
+
+- Emotes you get on this channel. Free Art Class with Nuns haha. Drawing isnt that great. Personal meme.
+Website: HTML
+Look:CSS
+Activity: Javascript (example pizza toppings)
+
+Internet is a wire Client>Server(html,css,javascript) 
+front end developer back end developer know how both work together 
+Transatlantic internet Wires 53 Terabytes per sec ISP - internet service provider DNS - Domain Name
+System IP ADDRESS URL - make it to our server server has code running on it using Code language
+
+HTML5: Video, Audio, Canvas, Geolocation, Websockets
+
+HTML Syntax
+
+<p class="nice">Hello world!</p>
+
+Golden Rule
+Seperation of Concerns
+
+HTML = Content / Structure Markup
+CSS = Style Markup
+JS = Behavior / Interaction
+
+Questions:
+What is active recall?
+What is spaced repetition?
+What should you use to learn? Two things
+Why should you write your own questions in anki?
+Why should you use anki every day?
+What is the internet Hint: Client and Server? Clients? Server? Request?
+What are the nuns?
+What are front end developer?
+What are back end developers?
+What is DNS?
+What is VPN?
+What is protocol of the internet?
+What is HTML5?
+What is CSS?
+What is Javascript?
+What are some common elements in HTML?

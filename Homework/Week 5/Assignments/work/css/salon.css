@@ -1,0 +1,361 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  /* The following is for my header */
+    header {
+        text-align:left;
+        width:100%;
+        height:75px;
+    }
+    header img {
+        float:left;
+        margin:0px 50px;
+    }
+    header nav ul li {
+        display:inline-block;
+        height:41px;
+        padding-top:15px;
+        padding-left:15px;
+        width: 8%;
+    }
+    header a {
+        text-decoration: none;
+        list-style:none;
+        color:black;
+    }
+    .headerspan {
+        float:right;
+        padding-top:15px;
+        padding-left:15px;
+        padding-right:15px;
+   }
+   /* The following is for my main */
+    main {
+        background-image: url(../photo/hair1.jpg);
+        background-size: cover;
+        height:875px;
+        padding-left:140px;
+    }
+    main h1 {
+        font-size: 80px;
+        color:white;
+        width:25%;
+        padding-top:15%;
+    }
+     main p {
+        font-size: 17px;
+        color:white;
+        padding-top:17px;
+        margin-bottom:35px;
+    }
+    main a {
+        text-decoration: none;
+        color:white;
+        background-color: black;
+        margin-top:10px;
+        padding: 10px;
+        border:1px solid black;
+        margin-bottom:100px;
+    }
+    main section {
+        color:white;
+        background-color: black;
+        margin-top:100px;
+        padding-left:15px;
+        border:1px solid black;
+        width:20%;
+        height:34%;
+    }
+    section h2 {
+        padding-top:45px;
+    }
+    section span {
+        font-size: 50px;
+    }
+    section .blackbox {
+        width: 74%;
+        line-height: 35px;
+    }
+    section .mainspan {
+        font-size:15px;
+        font-weight:bold;
+        color:black;
+        background-color:white;
+        padding:10px;
+    }
+    .leftarrow {
+        float:right;
+        border-radius:50%;
+        background-color:white;
+        border: 1px solid white;
+        color:black;
+        margin-top:200px;
+        margin-right:5px;
+    }
+    .rightarrow {
+        float:right;
+        border-radius: 50%;
+        background-color:white;
+        border:1px solid white;
+        color:black;
+        margin-top:200px;
+        margin-right:40px;
+    }
+    /* This is for my about section */
+    .about {
+        padding: 20px 140px;
+        margin-top:40px;
+        height:400px;
+    }
+    .about section {
+        float:left;
+        width:33%;
+        text-align: center;
+        line-height: 25px;
+        padding:28px;
+    }
+    .about h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom:20px;
+    }
+    /* This is for my momentum section */
+    .momentum {
+        padding: 20px 140px;
+        margin-top:40px;
+        height:450px;
+        background-color: rgb(243,244,246);
+    }
+    .momentum section {
+        float:left;
+        width:50%;
+    }
+    .momentum h2 {
+        font-size:40px;
+    }
+    .momentum p {
+        margin-top:30px;
+        width:65%;
+        line-height: 25px;
+        margin-bottom:50px;
+    }
+    .readmore {
+        font-size:15px;
+        padding:20px 35px;
+        background-color:black;
+        color:white;
+    }
+    .momentum img {
+        margin-top:50px;
+        height:300px;
+        width:500px;
+    }  
+    /* This is for my employee section */
+    .employees {
+        padding: 20px 140px;
+        margin:40px 0px;
+        height:500px;
+    }
+    .employees section {
+        float:left;
+        width:33%;
+        text-align: center;
+    }
+    .employees img {
+        height:375px;
+        width:275px;
+    }
+    .emp {
+        margin: auto;
+        background-color: black;
+        color:white;
+        padding:10px;
+        width:70%;
+    }
+    .emp span {
+        font-size:12px;
+    }
+    /* This is for my offers section */
+    .offers {
+        margin:40px 140px;
+        height:500px;
+        background-image: url(../photo/offers.jpg);
+        background-size: cover;
+    }
+    .offers h4 {
+        padding-top:125px;
+        padding-left:60px;
+    }
+    .offers p {
+        padding-top:20px;
+        padding-left:60px;
+        width:42%;
+        font-size:30px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .appointment {
+        background-color: black;
+        color:white;
+        padding:20px 35px;
+        margin-left:55px;
+        font-size:15px;
+    }
+    /* This is for my lookbook section with all the images */
+    .lookbook {
+        padding: 20px 140px;
+        margin:40px 0px;
+        height:1000px;
+        text-align: center;
+    }
+    .lookbook h4 {
+        font-size: 35px;
+    }
+    .lookbook p {
+        margin-bottom:20px;
+        font-size:50px;
+        font-weight: bold;
+    }
+    .lookimage {
+        float:left;
+        width:33.3333%;
+    }
+    .image1, .image3, .image5 {
+        margin-bottom:35px;
+        margin-right:0px;
+    }
+    .image4 {
+        height:278px;
+        width:276px;
+    }
+
+   /******************************************
+   /* ADDITIONAL STYLES
+  /*******************************************/
+  @media all and (max-width:450px) {
+      main, section, header {
+          width:100%;
+          padding:0;
+          margin: 0;
+          background-color:rgb(243,244,246);
+          text-align: center;
+      }
+      header ul {
+          display:none;
+      }
+      main {
+          background-size:contain;
+          background-repeat: no-repeat;
+          height:484px;
+      }
+      main h1 {
+          font-size:30px;
+          padding:0px;
+          padding-right:50px;
+          text-align: center;
+          width:100%;
+      }
+      main p {
+          width:60%;
+          text-align: center;
+          padding:0;
+          padding-left:85px;
+      }
+      main a {
+          margin-left:-40px;
+      }
+      main .rightarrow, .leftarrow {
+          display:none;
+      }
+      main section {
+          width:100%;
+          height:250px;
+          padding:0;
+          padding-right:30px;
+      }
+      .about, .momentum {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding:0;
+      }
+      .about section {
+          float:none;
+          width:85%;
+      }
+      .momentum section {
+          float:none;
+          width:100%;
+      }
+      .momentum section h2 {
+          text-align: center;
+          width:86%;
+          margin:0;
+          padding:0;
+      }
+      .momentum p {
+        text-align: center;
+        width:86%;
+        padding:0;
+      }
+      .momentum span {
+          margin-right:50px;
+      }
+      .employees {
+          display:none;
+      }
+      .offers{
+        background-size:contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding-top:20px;
+        margin:0;
+      }
+      .offers h4 {
+          width:100%;
+          margin:0px;
+          padding:0;
+          padding-right:30px;
+          text-align: center;
+      }
+      .offers p {
+          width:83%;
+          margin:0px;
+          margin-bottom:20px;
+          padding:0px;
+      }
+      .offers .appointment {
+          width:100%;
+          margin:0;
+          margin-right:65px;
+      }
+      .lookbook {
+          display:none;
+      }
+  }

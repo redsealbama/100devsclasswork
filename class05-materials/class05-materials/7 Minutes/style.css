@@ -1,0 +1,77 @@
+/* Tell browser to ignore the borders */
+*{
+    box-sizing: border-box;
+}
+
+/* clear: both tells the footer to look both ways before crossing the street
+    it will come BEHIND your floats */
+header,footer {
+    height:100px;
+    border: 3px solid black;
+    background:black;
+    clear:both;
+}
+
+section {
+    height:500px;
+    width:33.3333%;
+    border: 3px solid black;
+    background: lightgrey;
+    float: left;
+
+}
+/*
+@media screen and (max-width:500px) {
+    section, header, footer {
+        background:blue;
+    }
+}
+*/
+/* This will make my header and footer blue when in between 0 and 1000 pixels wide. */
+@media screen and (max-width:2000px) {
+    header, footer {
+        background:blue;
+    }
+    section {
+        background:purple;
+        width: 49.9999%;
+        height:500px;
+    }
+    .bottom {
+        display:none;
+    }
+}
+/*
+@media (min-width:250px) and (max-width: 800px) {
+    header, footer {
+        background:yellow;
+    }
+}
+*/
+
+/*
+@media screen and (max-width:800px) {
+    section {
+        background:pink;
+    }
+}
+*/
+
+/* Goal here is to turn off floats and changing the widths of my elements to span the full width of the viewport
+    so I have breathing room for my content */
+
+@media all and (max-width: 750px) {
+    header, footer {
+        float:none;
+        width:auto;
+        background-color:yellow;
+    }
+    section {
+        float:none;
+        width:auto;
+        background-color:pink;
+    }
+    .bottom {
+        display:none;
+    }
+}

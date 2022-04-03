@@ -1,0 +1,37 @@
+* {
+    box-sizing:border-box;
+}
+
+.green {
+    background-color:green;
+    height:500px;
+    width:250px;
+    float:left;
+}
+
+.pink {
+    background-color: rgb(254, 99, 71);
+    height:250px;
+    width:500px;
+    float:left;
+    clear:both;
+}
+
+.red {
+    background-color: red;
+    position:relative;
+    height:500px;
+    width:250px;
+    bottom:250px;
+    float:left;
+}
+
+.brown {
+    background-color:rgb(222, 184, 135);
+    position:relative;
+    height:250px;
+    width:500px;
+    top:0;
+    right:0;
+    left:250px;
+}

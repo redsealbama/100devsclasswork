@@ -1,0 +1,417 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body * {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* This is my header and it has a background image associated with it */
+header {
+  height: 570px;
+  width:100%;
+  background-image: url(../photo/header.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+header nav ul  {
+  text-align: right;
+}
+/* This makes my list span across one line up top */
+header nav ul li {
+  display:inline-block;
+  margin-right:50px;
+}
+header a {
+  text-decoration: none;
+  list-style: none;
+  color:black;
+  font-weight: bold;
+}
+header img {
+  height:25px;
+  width:25px;
+}
+header h1 {
+  float:left;
+  clear:both;
+  text-align:left;
+  font-size: 75px;
+  font-weight: bold;
+  width:45%;
+  margin-top:90px;
+  margin-left:100px;
+}
+header form {
+  float:left;
+  clear:both;
+  width:50%;
+}
+.searchhere {
+  text-align:left;
+  width:65%;
+  padding:10px;
+  margin-left:45px;
+  margin-top: 30px;
+  border:1px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.location {
+  text-align:left;
+  font-size:12px;
+  padding: 13px;
+  background: orange;
+  border:1px solid orange;
+  color:white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.socialmedia {
+  float:left;
+  clear:both;
+  margin-left:100px;
+  margin-top:30px;
+  font-weight: bold;
+}
+/* This is for my main section and the background image within it */
+main {
+  background-image: url(../photo/main1.jpg);
+  background-color:rgb(240,240,240);
+  background-repeat: no-repeat;
+  background-size:auto;
+  height:570px;
+  width:100%;
+  padding-top:100px;
+  text-align: left;
+}
+main > span {
+  color:orange;
+  font-weight:600;
+  float:right;
+  clear:both;
+  width: 100%;
+}
+main h2 {
+  font-size:55px;
+  font-weight: bold;
+  text-align:left;
+  width:54%;
+  margin-top: 20px;
+  margin-bottom:30px;
+  float:right;
+  clear:both;
+}
+main p {
+  text-align: left;
+  width:54%;
+  margin-bottom:20px;
+  padding-right:50px;
+  float:right;
+  clear:both;
+}
+/* form {
+  float:right;
+  clear:both; */
+
+.discovermenu {
+  float:right;
+  clear:both;
+  background: orange;
+  border: 1px solid orange;
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  width:11%;
+  margin-right:620px;
+}
+/* This is for my cuisine section */
+.cuisine {
+  background-color: rgb(242,246,247);
+  padding: 50px;
+}
+#dotstop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:34px;
+  width:115px;
+}
+.cuisine img {
+  height: 235px;
+  width: 224px;
+}
+.cuisine > span {
+  color: orange;
+  font-weight:bold;
+}
+.cuisine h2 {
+  font-size:55px;
+  font-weight: bold;
+}
+#dotstop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Remember the list itself should always have a display:inline-block if you want the elements to lay on one line */
+.cuisine ul .food {
+  display:inline-block;
+  width:9%;
+  margin:50px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.food > a {
+  text-decoration: none;
+  list-style: none;
+  color:black;
+}
+.food > a:hover {
+  color:orange;
+}
+
+.images ul .foodimage {
+  display:inline-block;
+  padding: 0px 15px;
+  height:100px;
+}
+/* This is for my hours section */
+.hours {
+  padding: 50px;
+  width:100%;
+}
+.hours .book  {
+  color: orange;
+  font-weight:bold;
+}
+.hours h2 {
+  font-size:55px;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+.phone{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+.callnow {
+  float:left;
+  clear:both;
+  width:100%;
+}
+.phonenumber {
+  float:left;
+  clear:both;
+  width:100%;
+  color:orange;
+  font-size:25px;
+  margin-bottom:10px;
+}
+.workhours {
+  display:inline-block;
+  text-align: left;
+  width:49%;
+  line-height: 25px;
+  margin-bottom:50px;
+  padding-left:200px;
+}
+.workhours p {
+  font-size: 25px;
+  font-weight:bold;
+  text-align:left;
+}
+.hoursleft {
+  float:left;
+  clear:both;
+  margin-top:250px;
+  margin-left:100px;
+}
+.video {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hoursright {
+  float:right;
+  margin-top:250px;
+  margin-right: 100px;
+}
+.hours span {
+  font-weight:bold;
+}
+.arrows {
+  height:50px;
+  width:50px;
+}
+/* The following is for my footer/last section */
+.footer {
+  background-color: rgb(242,246,247);
+  padding: 50px;
+}
+.testimonial {
+  color: orange;
+  font-weight:bold;
+}
+.footer h3 {
+  font-size:55px;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+.footer .me {
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+}
+.footer h4 {
+  font-size:30px;
+  font-weight:bold;
+}
+.footer .title {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+
+}
+.fivestar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.footer p {
+  font-size: 18px;
+  padding-left:200px;
+  padding-right:200px;
+}
+.dots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width:500px) {
+  body  {
+    text-align: center;
+    width:100%;
+    background-color: rgb(242,246,247);
+  }
+  header {
+    width:100%;
+    text-align: center;
+    height:400px;
+  }
+  header h1 {
+    font-size:50px;
+  }
+  header nav {
+    display:none;
+  }
+  header form {
+    width:100%;
+  }
+  header .socialmedia {
+    display:none;
+  }
+
+  main {
+    background-image:none;
+    background-color: rgb(242,246,247);
+    padding: 5px;
+    margin-left: 15px;
+    width:100%;
+    height:400px;
+  }
+  main span {
+    font-size:30px;
+    text-align: left;
+    margin-left:5px;
+  }
+  main h2 {
+    float:left;
+    clear:both;
+  }
+  main form {
+    float:left;
+    clear:both;
+  }
+  main .discovermenu {
+    float:left;
+    clear:both;
+    width:20%;
+  }
+  main p {
+    display:none;
+  }
+  .cuisine {
+    text-align: center;
+    width:100%;
+  }
+  .cuisine ul {
+    display:none;
+  }
+  #dotstop {
+    display:none;
+  }
+  .hours {
+    margin:0;
+    padding:0;
+    text-align:center;
+    height:330px;
+  }
+  .workhours {
+    float:left;
+    clear:both;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .workhours p {
+    text-align:center;
+  }
+  .hours img {
+    display:none;
+  }
+  .footer {
+    float:left;
+    clear:none;
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer p {
+    text-align:center;
+    width:100%;
+    padding: 0px 25px;
+  }
+}

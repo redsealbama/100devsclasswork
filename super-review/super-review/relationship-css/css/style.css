@@ -1,0 +1,8 @@
+/* World and Zebra Blue */
+/* All h2's red */
+h2 {
+    color:red;
+}
+section > h2 {
+    color:blue;
+}

@@ -1,0 +1,19 @@
+/* Please Make only Rhino and Zebra Blue */
+/*.top h2 {
+color:blue;
+}
+*/
+#rhino,#zebra {
+    color:blue;
+}
+/* Please Make only Hufflepuff Gold */
+#bestHouse {
+    color:gold;
+}
+/* Please select Duck with the highest level of specificity possible */
+/* When there is no space, find something that has all of these selectors
+    when there is a space, it makes it a parent child. It goes on and on */
+section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100  {
+    color:lime !important;
+}
+/* Please select Rhino with the highest level of specificity possible */

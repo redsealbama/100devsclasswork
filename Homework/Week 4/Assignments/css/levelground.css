@@ -1,0 +1,249 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  margin-top:0;
+  font-family: 'Oswald', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* The following below are for my header */
+header {
+  background-color:rgb(102,118,138);
+  text-align: center;
+  padding-bottom:65px;
+}
+nav ul li {
+  float:left;
+  list-style:none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(241,241,241);
+  font-weight: bold;
+}
+.levelgroundlogo {
+  margin-top: 20px;
+}
+.donatebutton {
+  float:right;
+  margin: 20px 20px;
+  text-decoration: none;
+  background: rgb(241,241,241);
+  color:rgb(102,118,138);
+  padding: 15px;
+  border-radius: 15px;
+  font-weight:bold;
+}
+h1 {
+  font-size:75px;
+  color: rgb(241,241,241);
+  margin-top: 100px;
+  font-weight:bold;
+}
+h1 + p {
+  font-size: 25px;
+  color: rgb(241,241,241);
+  margin: 58px 75px;
+  line-height: 35px;
+}
+.watchvideo {
+  font-size: 25px;
+  color: rgb(241,241,241);
+  margin-bottom:200px;
+}
+.bigbackgroundimage {
+  color: rgb(81,90,107);
+  margin-top: 100px;
+  font-weight: bold;
+}
+/* The following below is for the first section following my header */
+.firstsection {
+  text-align: center;
+  color: rgb(81,90,107);
+}
+h2 {
+  font-size: 42px;
+  margin-top: 138px;
+  font-weight: bold;
+}
+h2 + p {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 154px;
+  line-height: 32px;
+}
+/* The following below is for the middle section following the first. This is split into two columns. */
+main .split {
+   background-color: rgb(219,223,226);
+   color: rgb(81,90,107); 
+   padding-top: 120px;
+   height:781px;
+   text-align: center;
+}
+/* Left Column */
+.splitleft {
+  float:left;
+  width: 50%;
+}
+.splitleft img {
+  padding-bottom:31px;
+}
+.splitleft img + h3 {
+  font-weight:bold;
+  font-size:25px;
+  padding-bottom:30px;
+}
+.splitleft img + h3 + p {
+  font-size:20px;
+  padding: 30px 40px;
+  margin-bottom:35px;
+}
+.splitleft span {
+  border: 1px solid rgb(81,90,107);
+  padding: 10px 35px;
+  font-weight:bold;
+}
+/* Right Column */
+.splitright {
+  float:right;
+  width: 50%;
+}
+.splitright img {
+  padding-bottom:31px;
+}
+.splitright img + h3 {
+  font-weight:bold;
+  font-size:25px;
+  padding-bottom:30px;
+}
+.splitright img + h3 + p {
+  font-size:20px;
+  padding: 30px 40px;
+  margin-bottom:35px;
+}
+.splitright span {
+  border: 1px solid rgb(81,90,107);
+  padding: 10px 50px;
+  font-weight:bold;
+}
+/* The following is for the last section before my footer */
+.volunteer {
+  color: rgb(81,90,107); 
+  text-align: center;
+  height:432px;
+}
+.volunteer > h2 {
+  font-size: 40px;
+  margin-top: 138px;
+  font-weight: bold;
+}
+.volunteer p {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 65px;
+  line-height: 32px;
+}
+.volunteer span {
+  border: 1px solid rgb(81,90,107);
+  padding: 15px 50px;
+  font-weight:bold;
+}
+/* The following is for my footer */
+footer {
+  background-color: rgb(22,31,42);
+  color:rgb(241,241,241);
+  Height:305px;
+  width:100%;
+  padding-left:50px;
+  padding-right:50px;
+}
+/* The following is for the left side of my footer */
+.footerleft {
+  float:left;
+  width:50%;
+}
+.footerleft h6 {
+  text-align:left;
+  clear:both;
+  color: rgb(81,90,107);
+  padding-bottom:5px;
+}
+.footerleft ul li {
+  float:left;
+  width: 10%;
+  padding-bottom:25px;
+}
+.footerleft ul li a {
+  text-decoration: none;
+  list-style: none;
+  color:rgb(241,241,241);
+}
+/* The following is for the right side of my footer */
+.footerright {
+  float:right;
+  width:50%;
+}
+.footerright h4{
+  float:right;
+  padding-top:40px;
+  width:127px;
+}
+.footerright p {
+  float:right;
+  clear:both;
+  padding-top: 20px;
+  width: 127px;
+  color:silver;
+}
+.footerright span {
+  float:right;
+  clear:both;
+  width: 127px;
+  padding-top:7px;
+}
+/* The following is for the bottom part of my footer */
+.footerbottom {
+  float:left;
+  clear:both;
+  width: 100%;
+  height: 100px;
+}
+.bottom {
+  padding-top:40px;
+  border-top: 1px solid white;
+}
+.footerbottom img {
+  float:right;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
