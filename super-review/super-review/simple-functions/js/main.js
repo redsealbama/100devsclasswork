@@ -4,6 +4,9 @@ function subtractTwoNumbers(sub1, sub2){
     alert(sub1 - sub2)
 }
 subtractTwoNumbers(10,5);
+function test (test1, test2){
+    alert(test1 - test2)
+}
 //create a function that divides three numbers and console logs the quotient
 function divideThreeNumbers(div1, div2, div3){
     console.log(div1 / div2 / div3)
